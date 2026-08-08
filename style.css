@@ -43,7 +43,7 @@ header h1 {
     text-decoration: underline;
 }
 
-/* Main Content Area */
+/* Main Content */
 main {
     flex: 1;
     padding: 40px 20px;
@@ -58,7 +58,7 @@ main h2 {
     margin-bottom: 30px;
 }
 
-/* Homepage Class Grid */
+/* Homepage Grid */
 .class-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -91,7 +91,7 @@ main h2 {
     font-size: 18px;
 }
 
-/* Style for unlinked/future classes on homepage */
+/* inactive boxes */
 .class-box.inactive {
     background: #e0e0e0;
     cursor: default;
